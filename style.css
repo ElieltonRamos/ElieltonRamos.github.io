@@ -1,0 +1,17 @@
+<style>
+h1{
+  font-family: 'Anton', sans-serif;
+  font-style: oblique;
+  line-height: 80%;
+  text-align: center;
+  text-decoration: underline overline dotted blue;
+}
+p{
+      font-family: 'Delicious Handrawn', cursive;
+      font-weight:600;
+      font-size: 3em
+}
+body{
+  font-size: 16px
+}
+    </style>
