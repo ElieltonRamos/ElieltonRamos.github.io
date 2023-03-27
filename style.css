@@ -8,24 +8,39 @@ background-size: cover;
 font-size: 30px;
 font-family: 'Montserrat', sans-serif;
 }
-#titulo {
-  width: 73%
-}
+
 header {
-  display:inline-block;
+  display: inline-block;
   background-color:rgb(184, 217, 240)
-  
 }
-#minhafoto {
-  margin-top:30px;
-  float: right
+#meutitulo1 {
+width:72%;
+display:inline-block
 }
+#meutitulo2 {
+  margin:auto;
+  display:inline-block
+}
+
 main {
   background-color: aquamarine;
 }
 footer {
   background-color: rgb(68, 153, 89);
+
 }
+#listarodape {
+display:inline-block;
+width: 25%;
+
+}
+#imagemrodape {
+width:70%;
+margin: -5% 30% 30%;
+display: inline-block;
+}
+
+
 .botao {
     background-color: #11a36a;  
     color: #fff;
