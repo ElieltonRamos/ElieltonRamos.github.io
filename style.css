@@ -10,6 +10,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 header {
+  width: 100%;
   display: inline-block;
   background-color:rgb(184, 217, 240)
 }
@@ -26,18 +27,20 @@ main {
   background-color: aquamarine;
 }
 footer {
+  width: 100%;
   background-color: rgb(68, 153, 89);
 
 }
 #listarodape {
+text-align:left;
 display:inline-block;
-width: 25%;
+width: 40%;
 
 }
 #imagemrodape {
-width:70%;
-margin: -5% 30% 30%;
 display: inline-block;
+width:50%;
+
 }
 
 
@@ -53,8 +56,4 @@ display: inline-block;
 }
 ul li {
   margin-bottom: 10px
-}
-#rodape {
-  float:right;
-  margin: -370px 30px
 }
