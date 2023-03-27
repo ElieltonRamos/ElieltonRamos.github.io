@@ -1,49 +1,73 @@
 * {
-  text-decoration: none
+    text-decoration: none;
 }
+
 body {
-background-image:url(fundo\ pagina.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-font-size: 30px;
-font-family: 'Montserrat', sans-serif;
+    padding: 2%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image:url(fundo\ pagina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-header {
-  width: 100%;
-  display: inline-block;
-  background-color:rgb(184, 217, 240)
+#minhafoto {
+    float:left;
+    height: 280px;
+    padding: 10px;
+    background-color: blue;
 }
-#meutitulo1 {
-width:72%;
-display:inline-block
-}
-#meutitulo2 {
-  margin:auto;
-  display:inline-block
-}
-
-main {
-  background-color: aquamarine;
-}
-footer {
-  width: 100%;
-  background-color: rgb(68, 153, 89);
+#image-container {
+    height: 300px;
+    position: relative;
 
 }
-#listarodape {
-text-align:left;
-display:inline-block;
-width: 40%;
+#nome-container {
+    text-align: center;
+    background-color: rgba(0, 208, 255, 0.559);
 
 }
-#imagemrodape {
-display: inline-block;
-width:auto;
+#descricao {
+   position: absolute;
+   top: 100px;
+   left: 350px;
+   right: 50px;
+   text-align: center;
+   background-color: rgba(21, 128, 152, 0.559);
 
 }
+#conteudo-main {
+    position: relative;
+}
 
-
+#habilidades {
+    padding: 1%;
+    width: 45%;
+    display: inline-block;
+    background-color: rgba(0, 255, 89, 0.559);
+}
+#aside {
+    padding: 1%;
+    width: 45%;
+    display: inline-block;
+    background-color: rgba(6, 77, 24, 0.559);
+}
+#footer {
+    position: relative;
+    background-color: rgba(9, 107, 29, 0.928);
+}
+#text-footer {
+    padding: 1%;
+    width: 47%;
+    display: inline-block;
+}
+#image-footer {
+    position: absolute;
+    left: 50%;
+    padding: 2%;
+    width: 550px;
+    display: inline-block;
+}
 .botao {
     background-color: #11a36a;  
     color: #fff;
@@ -55,6 +79,13 @@ width:auto;
     width: 100px;
 }
 ul li {
-  margin-bottom: 10px
+    margin-bottom: 10px
+}
+#titulo {
+    
 }
 
+
+        div {
+            border:2px solid black
+        }
