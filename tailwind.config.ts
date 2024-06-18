@@ -14,6 +14,11 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    colors: {
+      'light-fade': 'hsl(274, 4%, 16%)',
+      'mint': 'hsl(316, 30%, 36%)',
+      'slate-blue': '#191970',
+    }
   },
   plugins: [],
 };
