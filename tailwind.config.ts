@@ -13,12 +13,18 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      spacing: {
+        '180n': '-180px',
+        330: '330px',
+        '25%': '25%',
+        '85%': '85%',
+      },
+      colors: {
+        'light-fade': 'hsl(274, 4%, 16%)',
+        'mint': 'hsl(316, 30%, 36%)',
+        'slate-blue': '#191970',
+      }
     },
-    colors: {
-      'light-fade': 'hsl(274, 4%, 16%)',
-      'mint': 'hsl(316, 30%, 36%)',
-      'slate-blue': '#191970',
-    }
   },
   plugins: [],
 };
