@@ -1,9 +1,8 @@
-/* eslint-disable @next/next/no-img-element */
-
 'use client'
 import { Permanent_Marker, Caveat, Lilita_One } from "next/font/google";
 import NavBar from "./navBar";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import Image from "next/image";
 
 const googleFontMarker = Permanent_Marker({ subsets: ["latin"], weight: '400' });
 const googleFontLilita = Lilita_One({ subsets: ["latin"], weight: '400' });
@@ -13,18 +12,21 @@ function Hello() {
     <main className="flex min-w-80 bg-slate-blue">
 
       <div className="z-0 bg-light-fade min-h-screen w-2/4 max-w-330" >
-        <img
+        <Image
           className="ml-10 mt-10"
+          width={435}
+          height={100}
           src="https://readme-typing-svg.demolab.com?font=Permanent+Marker&size=50&pause=1000&color=7A69EF&random=false&width=435&height=100&lines=Elielton"
+          unoptimized
           alt="Typing SVG"
         />
         <DotLottieReact
-          className="mr-180n w-48"
+          className="mr-180n w-40"
           src="./animations/desktop.lottie"
           loop
           autoplay
-          width={800}
-          height={800}
+          width={300}
+          height={300}
         />
       </div>
 
@@ -35,59 +37,66 @@ function Hello() {
           <br />
           Estou sempre à procura de oportunidades, formado na Trybe, tenho conhecimentos em JavaScript, TypeScript, Kotlin e Python
         </p>
-        <div className="flex">
-          <DotLottieReact
-            className="w-28"
-            src="./animations/javascript.json"
-            loop
-            autoplay
-            width={800}
-            height={800}
-          />
-          <DotLottieReact
-            className="w-28"
-            src="./animations/kotlin.lottie"
-            loop
-            autoplay
-            width={800}
-            height={800}
-          />
-          <DotLottieReact
-            className="w-28"
-            src="./animations/python.lottie"
-            loop
-            autoplay
-            width={800}
-            height={800}
-          />
-          <DotLottieReact
-            className="w-24"
-            src="./animations/react.lottie"
-            loop
-            autoplay
-            width={800}
-            height={800}
-          />
-          <DotLottieReact
-            className="w-24"
-            src="./animations/docker.lottie"
-            loop
-            autoplay
-            width={800}
-            height={800}
-          />
-        </div>
-        <div className="flex">
-          <img
-            className="w-20 h-20 mt-3"
-            src="./animations/typescript.gif"
-            alt="typescript"
-          />
-          <img
-            className="h-28"
-            src="./linux.png"
-            alt="linux"
-          />
+
+        <div className="flex flex-col md:flex-row w-full h-14 mt-5">
+          <div className="flex">
+            <DotLottieReact
+              className="min-w-14 h-14"
+              src="./animations/javascript.json"
+              loop
+              autoplay
+              width={100}
+              height={100}
+            />
+            <DotLottieReact
+              className="min-w-14 h-14"
+              src="./animations/kotlin.lottie"
+              loop
+              autoplay
+              width={100}
+              height={100}
+            />
+            <DotLottieReact
+              className="min-w-14 h-14"
+              src="./animations/python.lottie"
+              loop
+              autoplay
+              width={100}
+              height={100}
+            />
+            <DotLottieReact
+              className="min-w-14 h-14"
+              src="./animations/react.lottie"
+              loop
+              autoplay
+              width={100}
+              height={100}
+            />
+          </div>
+          <div className="flex">
+            <DotLottieReact
+              className="min-w-14 h-14"
+              src="./animations/docker.lottie"
+              loop
+              autoplay
+              width={100}
+              height={100}
+            />
+            <Image
+              className="w-10 h-10 ml-3"
+              src="/animations/typescript.gif"
+              alt="typescript"
+              width={40}
+              height={40}
+            />
+            <Image
+              className="w-10 h-12 ml-3 animate-bounce"
+              src="/linux.png"
+              alt="linux"
+              width={40}
+              height={40}
+            />
+          </div>
         </div>
       </div>
 
