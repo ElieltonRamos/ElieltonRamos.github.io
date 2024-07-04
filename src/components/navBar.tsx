@@ -6,7 +6,7 @@ function NavBar() {
         About
       </button>
 
-      <button className="button text-[10px] md:text-xl font-bold">
+      <button className="button text-[10px] mx-1 md:text-xl font-bold">
         Projects
       </button>
 

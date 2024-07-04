@@ -21,7 +21,7 @@ function Hello() {
           alt="Typing SVG"
         />
         <DotLottieReact
-          className="mt-16 w-40"
+          className="mt-16 w-48 absolute"
           src="./animations/desktop.lottie"
           loop
           autoplay
@@ -30,7 +30,7 @@ function Hello() {
         />
       </div>
 
-      <div className="w-3/5 flex flex-col justify-between itens-center ml-2">
+      <div className="w-3/5 flex flex-col justify-between itens-center ml-8">
         <NavBar />
 
         <p className={`${googleFontMarker.className} rotate-[-3deg]  md:py-8 text-responsive`}>👋 Olá, eu me chamo Elielton</p>
@@ -57,7 +57,7 @@ function Hello() {
             height={100}
           />
           <DotLottieReact
-            className="min-w-14 h-14"
+            className="min-w-14 h-16"
             src="./animations/python.lottie"
             loop
             autoplay
@@ -81,14 +81,14 @@ function Hello() {
             height={100}
           />
           <Image
-            className="w-10 h-10"
+            className="w-19 h-10"
             src="/animations/typescript.gif"
             alt="typescript"
             width={40}
             height={40}
           />
           <Image
-            className="w-10 h-12 ml-3 animate-bounce"
+            className="w-10 h-12 ml-2 animate-bounce"
             src="/linux.png"
             alt="linux"
             width={40}

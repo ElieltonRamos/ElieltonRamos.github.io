@@ -39,7 +39,6 @@ body {
     padding: 5px;
     background: var(--bg);
     transition: 0.2s;
-    margin-left: 10px;
   }
 
   .button:hover {
