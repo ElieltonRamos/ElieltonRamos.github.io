@@ -13,15 +13,15 @@ function Hello() {
 
       <div className="z-0 bg-light-fade min-h-screen w-2/4 max-w-330" >
         <Image
-          className="ml-10 mt-10"
+          className="ml-5 mt-10"
           width={435}
           height={100}
-          src="https://readme-typing-svg.demolab.com?font=Permanent+Marker&size=50&pause=1000&color=7A69EF&random=false&width=435&height=100&lines=Elielton"
+          src="https://readme-typing-svg.demolab.com?font=Permanent+Marker&size=180&pause=1000&color=7A69EF&random=false&width=740&height=275&lines=Elielton"
           unoptimized
           alt="Typing SVG"
         />
         <DotLottieReact
-          className="mr-180n w-40"
+          className="mr-180n mt-16 w-40"
           src="./animations/desktop.lottie"
           loop
           autoplay
