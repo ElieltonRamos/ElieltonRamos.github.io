@@ -30,7 +30,7 @@ function Hello() {
         />
       </div>
 
-      <div className="w-3/5 flex flex-col justify-between itens-center ml-8">
+      <div className="w-3/5 flex flex-col justify-between itens-center ml-8 md:ml-40">
         <NavBar />
 
         <p className={`${googleFontMarker.className} rotate-[-3deg]  md:py-8 text-responsive`}>👋 Olá, eu me chamo Elielton</p>
@@ -39,7 +39,7 @@ function Hello() {
           Estou sempre à procura de oportunidades, formado na Trybe, tenho conhecimentos em JavaScript, TypeScript, Kotlin e Python
         </p>
 
-        <div className="flex flex-row w-full h-14 mt-5 ml-[-210px] z-10">
+        <div className="flex flex-row w-full h-14 mt-5 ml-[-210px] md:ml-10 z-10">
           <DotLottieReact
             className="ml-2 min-w-14 h-14"
             src="./animations/javascript.json"
