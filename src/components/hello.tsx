@@ -13,7 +13,7 @@ function Hello() {
 
       <div className="z-0 bg-light-fade min-h-screen w-2/4 max-w-330" >
         <Image
-          className="mt-5"
+          className="mt-5 max-w-44 max-h-32 md:ml-5"
           width={435}
           height={100}
           src="https://readme-typing-svg.demolab.com?font=Permanent+Marker&size=180&pause=1000&color=7A69EF&random=false&width=740&height=275&lines=Elielton"
@@ -21,7 +21,7 @@ function Hello() {
           alt="Typing SVG"
         />
         <DotLottieReact
-          className="mt-16 w-48 absolute"
+          className="ml-[-10px] mt-16 md:mt-3 w-56 md:w-96 absolute"
           src="./animations/desktop.lottie"
           loop
           autoplay
@@ -39,7 +39,7 @@ function Hello() {
           Estou sempre à procura de oportunidades, formado na Trybe, tenho conhecimentos em JavaScript, TypeScript, Kotlin e Python
         </p>
 
-        <div className="flex flex-row w-full h-14 mt-5 ml-180n z-10">
+        <div className="flex flex-row w-full h-14 mt-5 ml-[-210px] z-10">
           <DotLottieReact
             className="ml-2 min-w-14 h-14"
             src="./animations/javascript.json"
