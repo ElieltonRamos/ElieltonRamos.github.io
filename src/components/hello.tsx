@@ -13,7 +13,7 @@ function Hello() {
 
       <div className="z-0 bg-light-fade min-h-screen w-2/4 max-w-330" >
         <Image
-          className="mt-10"
+          className="mt-5"
           width={435}
           height={100}
           src="https://readme-typing-svg.demolab.com?font=Permanent+Marker&size=180&pause=1000&color=7A69EF&random=false&width=740&height=275&lines=Elielton"
@@ -30,10 +30,11 @@ function Hello() {
         />
       </div>
 
-      <NavBar />
-      <div className="w-3/5 flex flex-col justify-between itens-center mt-20 ml-2">
+      <div className="w-3/5 flex flex-col justify-between itens-center ml-2">
+        <NavBar />
+
         <p className={`${googleFontMarker.className} rotate-[-3deg]  md:py-8 text-responsive`}>👋 Olá, eu me chamo Elielton</p>
-        <p className={`${googleFontLilita.className} text-responsive mr-8`}>Sou Desenvolvedor Web Full Stack apaixonado por tecnologia.
+        <p className={`${googleFontLilita.className} text-responsive mr-1`}>Sou Desenvolvedor Web Full Stack apaixonado por tecnologia.
           <br />
           Estou sempre à procura de oportunidades, formado na Trybe, tenho conhecimentos em JavaScript, TypeScript, Kotlin e Python
         </p>
