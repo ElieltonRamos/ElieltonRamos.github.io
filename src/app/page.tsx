@@ -1,5 +1,5 @@
-import Hello from "@/components/hello";
-import Projects from "@/components/projects";
+import Hello from "@/pages/hello";
+import Projects from "@/pages/projects";
 
 export default function Home() {
   return (

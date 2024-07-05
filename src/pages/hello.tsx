@@ -1,6 +1,6 @@
 'use client'
 import { Permanent_Marker, Caveat, Lilita_One } from "next/font/google";
-import NavBar from "./navBar";
+import NavBar from "../components/navBar";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import Image from "next/image";
 
