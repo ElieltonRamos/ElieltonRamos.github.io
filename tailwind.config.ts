@@ -23,6 +23,7 @@ const config: Config = {
         'light-fade': 'hsl(274, 4%, 16%)',
         'mint': 'hsl(316, 30%, 36%)',
         'slate-blue': '#191970',
+        'lilac':'hsl(263, 29%, 32%)'
       }
     },
   },
