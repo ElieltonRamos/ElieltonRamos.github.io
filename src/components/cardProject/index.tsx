@@ -15,7 +15,7 @@ function CardProject({ name, description, typeProject, image, repo, deploy }: Ca
     <div className="card h-[357px] w-[275px]">
       <div className="card__title">{name}</div>
       <div className="card__img">
-        <Image className='rounded-md border-blue-950 border-4' src={image} alt={name} width={375} height={200} />
+        <Image className='img-project rounded-lg border-2 border-blue-900 z-10' src={image} alt={name} width={275} height={200} />
       </div>
       <div className="card__subtitle">{typeProject}</div>
       <p className="z-10">{description}</p>
@@ -34,7 +34,7 @@ function CardProject({ name, description, typeProject, image, repo, deploy }: Ca
             </g>
           </svg>
         </div>
-          <Image className='z-10' src="/github.svg" alt="github" width={80} height={80} />
+        <Image className='z-10 rounded-full bg-white cursor-pointer shadow-black shadow-md' src="/github.svg" alt="github" width={70} height={80} />
       </div>
     </div>
   );
